@@ -25,11 +25,7 @@
       .col-lg-4.mb-3.h-100.bg5.p-3
         p Se entienden como la unidad sólida elemental que compone toda estructura textil. Cada fibra corresponde a un filamento que participa en la conformación de los hilos y, en consecuencia, de los tejidos y telas. Desde el punto de vista técnico, se considera fibra a aquel elemento cuya longitud es considerablemente mayor que su diámetro, condición que posibilita su entrelazado, torsión y transformación en estructuras textiles con propiedades específicas de resistencia, flexibilidad y adaptabilidad al uso.
       .col-lg-4.mb-3.col-9
-        .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-          h5 Figura 10. 
-          span Fibras textiles
-        figure
-          img(src="@/assets/curso/temas/t3/img02.png", alt="Conjunto de fibras textiles agrupadas en hebras, presentado como materia prima para la elaboración de hilos, tejidos y telas.")
+        img(src="@/assets/curso/temas/t3/img02.png", alt="")
       .col-lg-4.mb-3
         .row
           .col-lg-4.mb-3.col-4.col-md-3
@@ -43,7 +39,6 @@
 
     .tabla-a.color-acento-botones(data-aos="zoom-in-left").mb-4
       table
-        caption Nota. SENA (2025).
         thead
           tr
             th.izq.bg5 Grupo
@@ -129,8 +124,8 @@
             td Por poliadición.
             td Poliuretano y elastómeros.
 
-    .row.justify-content-center.cursor-pointer.mb-2(data-aos="zoom-in-left").h-100
-        .col-xl-4.col-md-9.col-11.mb-4.mb-xl-0.h-100
+    .row.justify-content-center.cursor-pointer.mb-4(data-aos="zoom-in-left").h-100
+        .col-xl-6.col-md-9.col-11.mb-4.mb-xl-0.h-100
           .crd_hover_txt(@mouseover="mostrarIndicador = false")
             .indicador--hover(v-if="mostrarIndicador")
             .crd_hover_txt--img
@@ -143,7 +138,7 @@
                 | Hilo
               p.mb-0 Se entiende como la agrupación de fibras textiles, continuas o discontinuas, que se integran mediante torsión hasta alcanzar una longitud suficiente para su utilización en la fabricación de estructuras textiles. Esta conformación permite obtener un elemento resistente y uniforme, apto para los procesos posteriores de tejido.
         
-        .col-xl-4.col-md-9.col-11.mb-4.mb-xl-0.h-100(data-aos="zoom-in-left")
+        .col-xl-6.col-md-9.col-11.mb-4.mb-xl-0.h-100(data-aos="zoom-in-left")
           .crd_hover_txt(@mouseover="mostrarIndicador = false")
             .indicador--hover(v-if="mostrarIndicador")
             .crd_hover_txt--img
@@ -155,12 +150,7 @@
                   span.flecha
                 | Hilatura
               p.mb-0 Corresponde al proceso técnico mediante el cual los filamentos o las fibras se transforman y organizan en hebras continuas, preparadas para la construcción de hilos y, posteriormente, de tejidos. Este procedimiento incide de manera directa en propiedades como la resistencia, la regularidad y el desempeño funcional del material durante su uso.
-        .col-xl-4.col-md-8.col-10.mb-4.mb-xl-0.h-100
-          .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-            h5 Figura 11. 
-            span Hilatura
-          figure 
-            img(src="@/assets/curso/temas/t3/fig11.png", alt="Conjunto de ovillos de fibra textil natural organizados como materia prima para procesos de tejido y elaboración de productos artesanales")
+
 
     .row.justify-content-center.align-items-center.mb-2(data-aos="zoom-in-left")
       .col-lg-8.mb-3
@@ -181,7 +171,6 @@
 
     .tabla-a.color-acento-botones(data-aos="zoom-in-left").mb-4
       table
-        caption Nota. Adaptado de SENA (2025).
         thead
           tr
             th.izq.bg5 Categoría
@@ -243,7 +232,7 @@
       .col-lg-12
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/mc1kARHDHrs?start=1" title="Caracterización de los textiles" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/kL9UYOzJD3o" title="Caracterización de los textiles" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
           figcaption Video: caracterización de los textiles.
 
 
@@ -273,7 +262,7 @@
             .tarjeta.bg-white.p-4
               TarjetaAudio.color-acento-botones(
                 texto="Pódcast: Cada centímetro"
-                :audio="require_src('@/assets/curso/temas/t3/img06.png')"
+                :audio="require_src('@/assets/curso/temas/t3/podcast.mp3')"
               )
               .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
            
@@ -308,11 +297,11 @@
             .col-lg-11.mb-4.mb-md-0
               p El porcentaje de aprovechamiento se determina mediante la relación entre el área ocupada por los patrones y el área total de la tela:
               .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-                h5 Figura 12.
+                h5 Figura 10.
                 span  Fórmula de aprovechamiento de los textiles
               figure 
                 img(src='@/assets/curso/temas/t3/fig12.svg', alt='')
-              figcaption.mb-4 Fuente: SENA, 2021
+    
               h5 Ejemplo de aplicación
               p.mb-0 Tela disponible:
               p.mb-0 1 m de largo × 1,50 m de ancho = 1,50 m²
@@ -323,11 +312,11 @@
               p.mb-0 1,15 m² ÷ 1,50 m² × 100 = 76,67 %
               p.mb-4 El porcentaje de aprovechamiento de la tela corresponde al 76,67 %.
               .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-                h5 Figura 13.
+                h5 Figura 11.
                 span Ejemplo de aplicación del aprovechamiento de los textiles
               figure 
                 img(src='@/assets/curso/temas/t3/fig13.svg', alt='')
-              figcaption.mb-4 Fuente: SENA, 2021
+   
       
           .row.justify-content-center(titulo="Identificación de los factores que afectan el aprovechamiento")
             .col-lg-11.mb-4.mb-md-0

@@ -133,7 +133,7 @@
         .col-lg-12
           figure
             .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/nrZzZ6GeEjY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/ppOfZh4ZzQg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
           figcaption Video: clasificación de medidas
 
       .tarjeta.fondo01.p-3.mb-3(data-aos="fade-left")    
@@ -148,7 +148,7 @@
                     p Por otro lado, para ampliar la información sobre la medición corporal, se recomienda consultar el anexo Medidas anatómicas, clasificación y análisis, en el cual se explican los puntos anatómicos de referencia y la clasificación de las medidas empleadas en los procesos de patronaje.
                     h4.mb-1 Anexo 1: Medidas anatómicas, clasificación y análisis
                   .col-sm-auto
-                    a.boton.color-acento-boton.texto-blanco(:href="obtenerLink('/downloads/Anexos/Anexo 1. Medidas anatómicas, clasificación y análisis.pdf')" target="_blank")
+                    a.boton.color-acento-boton.texto-blanco(:href="obtenerLink('/downloads/Anexos/Anexo_01_Medidas_anatomicas_clasificacion_y_analisis.pdf')" target="_blank")
                       span Descargar
                       i.fas.fa-file-download
 

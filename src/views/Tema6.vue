@@ -48,7 +48,7 @@
                   .col.mb-3.mb-sm-0
                     h4.mb-1 Anexo 3: Pasos para el trazo de la base superior
                   .col-sm-auto
-                    a.boton.color-acento-boton.texto-blanco(:href="obtenerLink('/downloads/Anexos/Anexo 3. Pasos para el trazo de la base superior.pdf')" target="_blank")
+                    a.boton.color-acento-boton.texto-blanco(:href="obtenerLink('/downloads/Anexos/Anexo_03_Pasos_para_el_trazo_de_la_base_superior.pdf')" target="_blank")
                       span Descargar
                       i.fas.fa-file-download
 
@@ -70,7 +70,7 @@
                   .col.mb-3.mb-sm-0
                     h4.mb-1 Anexo 4: Manual de patronaje básico e interpretación de diseños
                   .col-sm-auto
-                    a.boton.color-acento-boton.texto-blanco(:href="obtenerLink('/downloads/Anexos/Anexo 4. Manual de patronaje básico e interpretación de diseños.pdf')" target="_blank")
+                    a.boton.color-acento-boton.texto-blanco(:href="obtenerLink('/downloads/Anexos/Anexo_04._Manual_de_patronaje_basico_e_interpretacion_de_diseños.pdf')" target="_blank")
                       span Descargar
                       i.fas.fa-file-download
 
@@ -117,7 +117,7 @@
                   .col.mb-3.mb-sm-0
                     h4.mb-1 Anexo 5: Aspectos clave en el trazo de la manga
                   .col-sm-auto
-                    a.boton.color-acento-boton.texto-blanco(:href="obtenerLink('/downloads/Anexos/Anexo 5. Aspectos clave para el trazo de la manga.pdf')" target="_blank")
+                    a.boton.color-acento-boton.texto-blanco(:href="obtenerLink('/downloads/Anexos/Anexo_05_Aspectos_clave_para_el_trazo_de_la_manga.pdf')" target="_blank")
                       span Descargar
                       i.fas.fa-file-download
 
@@ -150,34 +150,34 @@
         img(src='@/assets/curso/temas/t6/img07.png', alt='')
       .col-lg-6
         LineaTiempoD.color-primario
-          .row(numero="1" titulo="Trazado del patrón base")
+          .row(numero="A" titulo="Trazado del patrón base")
             .col-lg-12.mb-md-0
               p Construir la estructura inicial a partir de las medidas corporales y los puntos de referencia requeridos.
-          .row(numero="2" titulo="Interpretación de líneas estructurales")
+          .row(numero="B" titulo="Interpretación de líneas estructurales")
             .col-lg-12.mb-md-0
               p Identificar las líneas que conforman el patrón, como el centro, el cuello, el hombro, la sisa, el costado, la cintura y la cadera.
 
-          .row(numero="3" titulo="Aplicación de desahogos")
+          .row(numero="C" titulo="Aplicación de desahogos")
             .col-lg-12.mb-md-0
               p Incorporar los ajustes necesarios en los contornos, largos y anchos, según el tipo de prenda que se va a desarrollar.
 
-          .row(numero="4" titulo="Definición del sistema de ajuste")
+          .row(numero="D" titulo="Definición del sistema de ajuste")
             .col-lg-12.mb-md-0
               p Establecer los recursos que permiten adaptar la prenda al cuerpo, de acuerdo con sus características y funcionalidad.
 
-          .row(numero="5" titulo="Definición del sistema de cierre")
+          .row(numero="E" titulo="Definición del sistema de cierre")
             .col-lg-12.mb-md-0
               p Determinar el uso de botonaduras, cremalleras u otros sistemas de cierre, cuando el diseño lo requiera.
 
-          .row(numero="6" titulo="Diseño de piezas complementarias")
+          .row(numero="F" titulo="Diseño de piezas complementarias")
             .col-lg-12.mb-md-0
               p Desarrollar los cuellos, puños, vistas y demás componentes necesarios para la construcción de la prenda.
 
-          .row(numero="7" titulo="Señalización técnica")
+          .row(numero="G" titulo="Señalización técnica")
             .col-lg-12.mb-md-0
               p Incorporar las marcas de guía, unión, dirección del hilo y demás indicaciones necesarias para interpretar correctamente el patrón.
 
-          .row(numero="8" titulo="Despiece del molde")
+          .row(numero="H" titulo="Despiece del molde")
             .col-lg-12.mb-md-0
               p Separar y organizar las piezas que conforman el patrón para facilitar su identificación y posterior proceso de corte.
 
@@ -195,7 +195,7 @@
                   .col.mb-3.mb-sm-0
                     h4.mb-1 Anexo 6: Análisis estructura masculina prepatronaje
                   .col-sm-auto
-                    a.boton.color-acento-boton.texto-blanco(:href="obtenerLink('downloads/Anexos/Anexo 6. Analisis estructura masculina prepatronaje.pdf')" target="_blank")
+                    a.boton.color-acento-boton.texto-blanco(:href="obtenerLink('downloads/Anexos/Anexo_06_Analisis_estructura_masculina_prepatronaje.pdf')" target="_blank")
                       span Descargar
                       i.fas.fa-file-download
 
@@ -203,11 +203,11 @@
       .row.justify-content-center.align-items-center.mb-3
         .col-lg-8.col-10.col-md-8
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-            h5 Figura 22. 
+            h5 Figura 20. 
             span Base superior masculina
           img(src='@/assets/curso/temas/t6/fig22.svg', alt='Esquema técnico del patrón base superior masculino, con las piezas delantera y posterior delimitadas por las líneas de centro frente y centro atrás. Incluye el trazado del escote, los hombros, las sisas, los costados y el borde inferior, acompañado por líneas auxiliares, curvas, fórmulas y medidas de construcción.')
 
-    p Para complementar este procedimiento, se recomienda consultar el documento Manual de patronaje básico e interpretación de diseños, específicamente la página 65, en la cual se presenta el trazo del esquema del patrón base masculino clásico.
+    p Para complementar este procedimiento, se recomienda retomar el anexo 4, Manual de patronaje básico e interpretación de diseños, específicamente la página 65, en la cual se presenta el trazo del esquema del patrón base masculino clásico.
 
     .tarjeta.fondo01.p-3.mb-4(data-aos="fade-left")    
         .row.justify-content-around.align-items-center
@@ -220,7 +220,7 @@
                   .col.mb-3.mb-sm-0
                     h4.mb-1 PDF: Manual de patronaje básico e interpretación de diseños
                   .col-sm-auto
-                    a.boton.color-acento-boton.texto-blanco(:href="obtenerLink('downloads/Anexos/Anexo 7. Manual de patronaje basico e interpretacion de diseños.pdf')" target="_blank")
+                    a.boton.color-acento-boton.texto-blanco(:href="obtenerLink('downloads/Anexos/Anexo_04._Manual_de_patronaje_basico_e_interpretacion_de_diseños.pdf')" target="_blank")
                       span Descargar
                       i.fas.fa-file-download
 
@@ -231,7 +231,7 @@
       .col-lg-12
         figure
           .video
-            iframe( width="560" height="315" src="https://www.youtube.com/embed/u0eiVcJAldI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+            iframe( width="560" height="315" src="https://www.youtube.com/embed/YeoqLHtgNfY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
           figcaption Video: Despiece de planos
 
     separador
@@ -252,7 +252,7 @@
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-8.col-11.col-md-8
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-            h5 Figura 23. 
+            h5 Figura 21. 
             span Trazo del patrón de camiseta deportiva masculina
           img(src='@/assets/curso/temas/t6/fig23.svg', alt='Plano técnico del patrón de una camiseta deportiva masculina compuesto por el cuerpo, la manga y el cuello. Incluye líneas estructurales, curvas, puntos de construcción y medidas de referencia para realizar el trazado.')
 
@@ -352,7 +352,7 @@
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-8.col-11.col-md-8
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-            h5 Figura 24. 
+            h5 Figura 22. 
             span Trazo del patrón de camiseta deportiva femenina
           img(src='@/assets/curso/temas/t6/fig24.svg', alt='Plano técnico del patrón de una camiseta deportiva masculina compuesto por el cuerpo, la manga y el cuello. Incluye líneas estructurales, curvas, puntos de construcción y medidas de referencia para realizar el trazado.')
 

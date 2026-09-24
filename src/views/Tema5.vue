@@ -127,7 +127,7 @@
             p Se emplea principalmente para realizar costuras rectas y operaciones de ensamble en tejidos planos.
           .col-lg-5.mb-4.mb-md-0.col-md-10
             .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-              h5 Figura 14. 
+              h5 Figura 12. 
               span Máquina industrial plana de una aguja
             figure
               img(src='@/assets/curso/temas/t5/1.png', alt='Máquina de coser industrial plana de una aguja instalada sobre una mesa de trabajo, con motor, pedal, soporte para hilos y mecanismos utilizados para realizar costuras rectas.')
@@ -137,7 +137,7 @@
             p Produce dos líneas de pespunte paralelas y se utiliza en costuras decorativas, refuerzos y prendas que requieren mayor resistencia.
           .col-lg-5.mb-4.mb-md-0.col-md-10
             .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-              h5 Figura 15.
+              h5 Figura 13.
               span Máquina industrial plana de dos agujas
             figure
               img(src='@/assets/curso/temas/t5/2.png', alt='Máquina de coser industrial plana equipada con dos agujas paralelas y dos sistemas de hilo para realizar dos líneas de costura simultáneas.')
@@ -148,7 +148,7 @@
             p Se utiliza para unir piezas, recortar sobrantes y realizar el acabado de los bordes, especialmente en tejidos de punto.
           .col-lg-5.mb-4.mb-md-0.col-md-10
             .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-              h5 Figura 16.
+              h5 Figura 14.
               span Máquina fileteadora industrial
             figure
               img(src='@/assets/curso/temas/t5/3.png', alt='Máquina fileteadora industrial con varios soportes para conos de hilo y mecanismos destinados a unir piezas, cortar excedentes y sobrehilar los bordes del material.')
@@ -159,7 +159,7 @@
             p Se utiliza principalmente para elaborar dobladillos y costuras de cobertura en camisetas, ropa deportiva y otras prendas de tejido de punto.
           .col-lg-5.mb-4.mb-md-0.col-md-10
             .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-              h5 Figura 17.
+              h5 Figura 15.
               span Máquina industrial collarín
             figure
               img(src='@/assets/curso/temas/t5/4.png', alt='Máquina collarín industrial instalada sobre una mesa de trabajo y equipada con varios soportes para hilos, utilizada para realizar costuras de cobertura y dobladillos en tejidos de punto.')
@@ -170,7 +170,7 @@
             p Realiza automáticamente ojales con dimensiones y características previamente ajustadas.
           .col-lg-5.mb-4.mb-md-0.col-md-10
             .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-              h5 Figura 18.
+              h5 Figura 16.
               span Máquina industrial ojaladora
             figure
               img(src='@/assets/curso/temas/t5/5.png', alt='Máquina ojaladora industrial con panel de control y mecanismos especializados para realizar ojales automatizados en diferentes tipos de prendas.')
@@ -181,7 +181,7 @@
             p Se utiliza para fijar botones planos o con pie mediante ciclos automáticos y repetitivos.
           .col-lg-5.mb-4.mb-md-0.col-md-10
             .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-              h5 Figura 19.
+              h5 Figura 17.
               span Máquina industrial botonera
             figure
               img(src='@/assets/curso/temas/t5/6.png', alt='Máquina botonera industrial con sistema de sujeción y panel de control, diseñada para fijar botones automáticamente sobre las prendas.')
@@ -192,7 +192,7 @@
             p Realiza costuras cortas y densas para reforzar zonas sometidas a tensión.
           .col-lg-5.mb-4.mb-md-0.col-md-10
             .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-              h5 Figura 20.
+              h5 Figura 18.
               span Máquina industrial presilladora
             figure
               img(src='@/assets/curso/temas/t5/7.png', alt='Máquina presilladora industrial con panel de control y área de costura especializada para reforzar bolsillos, trabillas, cremalleras y otros puntos de tensión.')
@@ -203,7 +203,7 @@
             p Produce puntadas que quedan ocultas en el derecho de la prenda y se utiliza para realizar dobladillos invisibles.
           .col-lg-5.mb-4.mb-md-0.col-md-10
             .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-              h5 Figura 21.
+              h5 Figura 19.
               span Máquina industrial de pespunte ciego
             figure
               img(src='@/assets/curso/temas/t5/8.png', alt='Máquina industrial de pespunte ciego con superficie de trabajo y mecanismo curvo de costura, utilizada para elaborar dobladillos con puntadas poco visibles en el exterior de la prenda.')

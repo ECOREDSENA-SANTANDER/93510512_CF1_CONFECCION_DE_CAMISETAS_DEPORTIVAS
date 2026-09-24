@@ -24,8 +24,8 @@
     p La relación entre proporción y canon se vincula con la manera en que se estudia la correspondencia entre las partes del cuerpo y su altura total, tradicionalmente expresada mediante la referencia de cuántas veces la longitud de la cabeza se integra en la estatura corporal. Para facilitar su comprensión, se precisan los siguientes conceptos:
 
     .row.justify-content-start.mb-3(data-aos="zoom-in-left")
-      .col-12.col-lg-4
-        h4.bg3.py-2.w-card-text2 Canon y proporción de la figura humana
+      .col-12.col-lg-5
+        h4.bg3.py-2.w-card-text2 Representaciones del canon y la proporción corporal
 
     TabsC.color-primario(data-aos="zoom-in-left").mb-0
       .py-3.py-md-4(titulo="Canon")
@@ -105,7 +105,7 @@
                   .col.mb-3.mb-sm-0
                     h4.mb-1 Anexo 2: Medidas anatómicas, clasificación y análisis
                   .col-sm-auto
-                    a.boton.color-acento-boton.texto-blanco(:href="obtenerLink('/downloads/Anexos/Anexo 2. Análisis de tallas y medidas.pdf')" target="_blank")
+                    a.boton.color-acento-boton.texto-blanco(:href="obtenerLink('/downloads/Anexos/Anexo_02_Analisis_de_tallas_y_medidas.pdf')" target="_blank")
                       span Descargar
                       i.fas.fa-file-download
 

@@ -621,7 +621,7 @@ export default {
             {
               id: 'c',
               texto:
-                'El prensatelas para cremallera diseñado para esa operación específica.',
+                'El prensatelas enrollador de dobladillo utilizado para realizar dobladillos estrechos.',
               esCorrecta: false,
             },
             {

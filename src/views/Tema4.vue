@@ -162,7 +162,7 @@
       .col-lg-12
         figure
           .video
-            iframe( width="560" height="315" src="https://www.youtube.com/embed/5YOLIDHLiCw?start=474" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+            iframe( width="560" height="315" src="https://www.youtube.com/embed/dcFVqOqjFg4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
           figcaption Video. Introducción a la ficha técnica.
 
     .row.justify-content-center.align-items-center.mb-2(data-aos="zoom-in-left")
