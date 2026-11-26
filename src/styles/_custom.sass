@@ -382,3 +382,53 @@ figcaption
 .linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__content
     background-color: #AFE5FC !important
     color: #132A60 !important
+
+.formula-aprovechamiento
+  display: flex
+  align-items: center
+  justify-content: center
+  gap: 10px
+  padding: 20px
+  background: #EAF7FF
+  border-radius: 20px
+  color: #173451
+  font-size: 16px
+
+  &__parentesis
+    display: flex
+    align-items: center
+    gap: 5px
+
+  &__signo
+    font-size: 48px
+    font-weight: 300
+    line-height: 1
+
+  &__fraccion
+    display: flex
+    flex-direction: column
+    text-align: center
+    line-height: 1.5
+    white-space: nowrap
+
+    span:first-child
+      border-bottom: 2px solid #173451
+      padding: 0 12px 5px
+
+    span:last-child
+      padding: 5px 12px 0
+
+  &__multiplicacion
+    white-space: nowrap
+
+@media screen and (max-width: $bp-max-md)
+  .formula-aprovechamiento
+    flex-wrap: wrap
+    gap: 5px
+    font-size: 13px
+
+    &__signo
+      font-size: 35px
+
+    &__fraccion
+      white-space: normal

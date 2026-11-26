@@ -203,7 +203,7 @@
       .row.justify-content-center.align-items-center.mb-3
         .col-lg-8.col-10.col-md-8
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-            h5 Figura 20. 
+            h5 Figura 18. 
             span Base superior masculina
           img(src='@/assets/curso/temas/t6/fig22.svg', alt='Esquema técnico del patrón base superior masculino, con las piezas delantera y posterior delimitadas por las líneas de centro frente y centro atrás. Incluye el trazado del escote, los hombros, las sisas, los costados y el borde inferior, acompañado por líneas auxiliares, curvas, fórmulas y medidas de construcción.')
 
@@ -218,7 +218,7 @@
               .col
                 .row.justify-content-between.align-items-center
                   .col.mb-3.mb-sm-0
-                    h4.mb-1 PDF: Manual de patronaje básico e interpretación de diseños
+                    h4.mb-1 Anexo 4: Manual de patronaje básico e interpretación de diseños
                   .col-sm-auto
                     a.boton.color-acento-boton.texto-blanco(:href="obtenerLink('downloads/Anexos/Anexo_04._Manual_de_patronaje_basico_e_interpretacion_de_diseños.pdf')" target="_blank")
                       span Descargar
@@ -252,7 +252,7 @@
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-8.col-11.col-md-8
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-            h5 Figura 21. 
+            h5 Figura 19. 
             span Trazo del patrón de camiseta deportiva masculina
           img(src='@/assets/curso/temas/t6/fig23.svg', alt='Plano técnico del patrón de una camiseta deportiva masculina compuesto por el cuerpo, la manga y el cuello. Incluye líneas estructurales, curvas, puntos de construcción y medidas de referencia para realizar el trazado.')
 
@@ -352,7 +352,7 @@
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-8.col-11.col-md-8
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-            h5 Figura 22. 
+            h5 Figura 20. 
             span Trazo del patrón de camiseta deportiva femenina
           img(src='@/assets/curso/temas/t6/fig24.svg', alt='Plano técnico del patrón de una camiseta deportiva masculina compuesto por el cuerpo, la manga y el cuello. Incluye líneas estructurales, curvas, puntos de construcción y medidas de referencia para realizar el trazado.')
 

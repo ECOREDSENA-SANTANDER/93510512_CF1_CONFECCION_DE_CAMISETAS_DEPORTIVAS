@@ -294,14 +294,18 @@
             .col-lg-11.mb-4.mb-md-0
               p Mida el largo total de la tela ocupada después de distribuir todas las piezas. Por ejemplo, si las piezas utilizan 0,95 m de un metro de tela adquirido, esta medida corresponde al largo empleado en el trazado.
           .row.justify-content-center(titulo="Cálculo del aprovechamiento")
-            .col-lg-11.mb-4.mb-md-0
+            .col-lg-11.mb-4
               p El porcentaje de aprovechamiento se determina mediante la relación entre el área ocupada por los patrones y el área total de la tela:
-              .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-                h5 Figura 10.
-                span  Fórmula de aprovechamiento de los textiles
-              figure 
-                img(src='@/assets/curso/temas/t3/fig12.svg', alt='')
-    
+              .formula-aprovechamiento.mb-4
+                span.formula-aprovechamiento__titulo Aprovechamiento (%) =
+                .formula-aprovechamiento__parentesis
+                  span.formula-aprovechamiento__signo (
+                  .formula-aprovechamiento__fraccion
+                    span Área útil utilizada por los patrones
+                    span Área total del metro de la tela
+                  span.formula-aprovechamiento__signo )
+                span.formula-aprovechamiento__multiplicacion × 100 
+                  
               h5 Ejemplo de aplicación
               p.mb-0 Tela disponible:
               p.mb-0 1 m de largo × 1,50 m de ancho = 1,50 m²
@@ -311,11 +315,15 @@
               p Cálculo:
               p.mb-0 1,15 m² ÷ 1,50 m² × 100 = 76,67 %
               p.mb-4 El porcentaje de aprovechamiento de la tela corresponde al 76,67 %.
-              .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-                h5 Figura 11.
-                span Ejemplo de aplicación del aprovechamiento de los textiles
-              figure 
-                img(src='@/assets/curso/temas/t3/fig13.svg', alt='')
+              .formula-aprovechamiento
+                span.formula-aprovechamiento__titulo Aprovechamiento (%) =
+                .formula-aprovechamiento__parentesis
+                  span.formula-aprovechamiento__signo (
+                  .formula-aprovechamiento__fraccion
+                    span 1.15
+                    span 1.5
+                  span.formula-aprovechamiento__signo )
+                span.formula-aprovechamiento__multiplicacion × 100 = 76.67%
    
       
           .row.justify-content-center(titulo="Identificación de los factores que afectan el aprovechamiento")
